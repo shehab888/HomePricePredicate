@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 
 # Load the trained model
-model_path = 'C:/Users/sheha/PycharmProjects/SimplePythonProject/home_price_model.pkl'
-with open(model_path, 'rb') as f:
+# model_path = 'C:/Users/sheha/PycharmProjects/SimplePythonProject/home_price_model.pkl'
+with open('home_price_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Streamlit application title
