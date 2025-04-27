@@ -35,6 +35,6 @@ model.fit(x_train,y_train)
 #get the initial score
 print(f"the initial score: {model.score(x_test,y_test)} ")
 #save the model in file.pkl
-with open('C:/Users/sheha/PycharmProjects/SimplePythonProject/home_price_model.pkl', 'wb') as f:
+with open('home_price_model.pkl', 'wb') as f:
     pickle.dump(model, f)
 
